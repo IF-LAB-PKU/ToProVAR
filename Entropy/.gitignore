@@ -1,0 +1,33 @@
+datas/
+__pycache__/
+*.py[cod]
+
+# Entropy subtree local outputs and runtime artifacts
+outputs/
+**/outputs/
+results/
+**/results/
+logs/
+**/logs/
+*.log
+tmp.*
+*.tmp
+
+# Entropy subtree local model and cache material
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+weights/
+checkpoints/
+**/checkpoints/
+.cache/
+.huggingface/
+
+# Build products from local extension compilation
+build/
+dist/
+*.egg-info/
+*.so

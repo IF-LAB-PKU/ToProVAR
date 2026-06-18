@@ -1,0 +1,89 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Build and compiled artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.so
+*.o
+*.a
+*.dll
+*.dylib
+
+# Package and model download caches
+.cache/
+.huggingface/
+huggingface/
+hf_cache/
+transformers_cache/
+torch_cache/
+
+# Model weights, checkpoints, and local datasets
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+/data/
+/models/
+/weights/
+/checkpoints/
+**/checkpoints/
+**/pretrained/
+**/model_weights/
+
+# Generated outputs, images, benchmark results, and experiment dumps
+outputs/
+**/outputs/
+results/
+**/results/
+experiment_results/
+experiment_records/
+benchmark_outputs/
+benchmark_results/
+local_benchmarks/
+generated/
+generated_images/
+runs/
+wandb/
+tensorboard/
+
+# Optional local evaluation dependencies
+Entropy/Infinity/evaluation/gen_eval/vendor_mmdet2/
+Entropy/Infinity/evaluation/dpg_bench/
+Entropy/Infinity/evaluation/gen_eval/prompt_rewrite_cache.json
+Entropy/Infinity/evaluation/gen_eval/prompts/prompts/
+
+# Logs, profiling, timing, and temporary files
+logs/
+**/logs/
+*.log
+*.prof
+*.trace
+*.nsys-rep
+*.qdrep
+*timing*.json
+*timing*.log
+*profile*.json
+*profile*.log
+tmp.*
+*.tmp
+*.temp
+
+# Editor and OS-local files
+.vscode/
+.idea/
+.DS_Store

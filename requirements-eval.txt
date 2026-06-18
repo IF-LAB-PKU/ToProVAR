@@ -1,0 +1,22 @@
+# Optional evaluation dependencies for ToProVAR paper-code utilities.
+# Install these only when running benchmark/evaluation scripts; the public
+# inference quickstart uses requirements.txt.
+
+# MJHQ30K FID / CLIP utilities.
+cleanfid
+# OpenAI CLIP package used by evaluation/mjhq30k_fid_clip.py.
+# Do not replace this with the unrelated PyPI `clip` package.
+git+https://github.com/openai/CLIP.git
+
+# HPSv2.1 evaluation.
+hpsv2
+
+# ImageReward scoring.
+ImageReward
+
+# GenEval scoring depends on a GenEval/MMDetection-compatible environment.
+# Prepare official GenEval/MMDetection dependencies externally, or place a
+# local vendor_mmdet2 checkout under Entropy/Infinity/evaluation/gen_eval/.
+# vendor_mmdet2 is intentionally ignored and not tracked in this repository.
+# Do not pin mmdet/mmcv here without validating CUDA, PyTorch, and GenEval
+# compatibility in the target environment.
