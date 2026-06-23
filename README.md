@@ -43,7 +43,7 @@ Why ToProVAR? Existing VAR acceleration methods such as FastVAR and SkipVAR main
 ## News
 
 - **2026-02-26:** arXiv paper available.
-- **2026:** ToProVAR accepted to ICLR 2026.
+- **2026-01-26:** ToProVAR accepted to ICLR 2026.
 
 ## Get Started
 
